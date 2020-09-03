@@ -27,3 +27,8 @@ header h1 span{
 
     color: #000000;
 }
+
+header ul li a {
+
+    text-decoration: none;
+}
