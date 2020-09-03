@@ -1,0 +1,29 @@
+@font-face{
+
+    font-family: Roboto;
+    src: url("../fontes/Roboto/Roboto-Regular.ttf");
+}
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto";
+
+}
+
+header{
+
+    margin-top: 2vh;
+}
+
+header #cd{
+
+    color: #D6000D;
+    margin-left: 5vh;
+}
+header h1 span{
+
+    color: #000000;
+}
