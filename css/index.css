@@ -13,22 +13,112 @@
 
 }
 
+
+body {
+
+    
+}
+
+
 header{
 
     margin-top: 2vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
 }
 
 header #cd{
 
     color: #D6000D;
-    margin-left: 5vh;
+    margin-left: 9vh;
 }
 header h1 span{
 
     color: #000000;
 }
 
-header ul li a {
+
+header #menu {
+
+    display: grid;
+    gap:0 0;
+    place-items: center;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    position: relative;
+}
+
+
+
+header #menu #menuLinks{
+
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0 4vh;
+    position: relative;
+    left: 48vh;
+
+}
+
+header #menu a {
 
     text-decoration: none;
+    color: #000000;
+   
+}
+
+header #menu #menuLinks #login{
+
+    background-color: #D6000D;
+    padding: 0.5vw;
+    width: 8vw;
+    border-radius: 7px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+#videoCallImg{
+
+    width: 35%;
+    position: relative;
+    top: 20vh;
+    left: 18vh;
+}
+
+h2{
+
+    position: relative;
+    left: 115vh;
+    top: -40vh;
+}
+
+#pWebsite{
+
+    position: relative;
+    left: 115vh;
+    color: #D6000D;
+    top: -38vh;
+    font-size: 11vh;
+    font-weight: bold;
+
+}
+
+#pSolicitar{
+
+    position: relative;
+    left: 115vh;
+    top: -30vh;
+    color: #ffffff;
+    background-color: #D6000D;
+    width: 22vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vh;
+    padding: 0.8vw;
+    border-radius: 10px;
 }
