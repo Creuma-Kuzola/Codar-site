@@ -122,3 +122,34 @@ h2{
     padding: 0.8vw;
     border-radius: 10px;
 }
+
+
+#imgAsset1{
+
+    position: relative;
+    left: 18vh;
+    top: 25vh;
+    width: 2%;
+}
+
+#pDominio{
+
+    position: relative;
+    top: 21vh;
+    left: 24vh;
+}
+
+#imgAsset2{
+
+    position: relative;
+    left: 18vh;
+    top: 22vh;
+    width: 2%;
+}
+
+#pHospedagem{
+
+    position: relative;
+    top: 17.5vh;
+    left: 24vh;
+}
