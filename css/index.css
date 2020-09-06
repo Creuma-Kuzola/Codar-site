@@ -10,7 +10,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family:"Roboto";
+    
 
+}
+
+body{
+
+    overflow-x: hidden;
 }
 
 
@@ -97,6 +103,7 @@ h2{
     top: -40vh;
 }
 
+
 #pWebsite{
 
     position: relative;
@@ -123,33 +130,123 @@ h2{
     border-radius: 10px;
 }
 
-
-#imgAsset1{
+#segunda-parte-site{
 
     position: relative;
-    left: 18vh;
-    top: 25vh;
-    width: 2%;
+    top: 35vh;
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    grid-auto-flow: column;
+
 }
 
-#pDominio{
+.img-textos-segunda-parte-site{
 
     position: relative;
-    top: 21vh;
+    left: 24vh;
+    width: 4%;
+}
+
+#segunda-parte-site #textos-segunda-parte-site{
+
+
+}
+
+
+#segunda-parte-site #textos-segunda-parte-site #imgAsset1{
+
+   
+}
+
+#segunda-parte-site #textos-segunda-parte-site #pDominio{
+
+    position: relative;
+    top: -3.5vh;
     left: 24vh;
 }
 
-#imgAsset2{
+
+#segunda-parte-site #textos-segunda-parte-site #imgAsset2{
 
     position: relative;
-    left: 18vh;
-    top: 22vh;
-    width: 2%;
+    top: -1vh;  
 }
 
-#pHospedagem{
+#segunda-parte-site #textos-segunda-parte-site #pHospedagem{
 
     position: relative;
-    top: 17.5vh;
+    top: -5vh;
     left: 24vh;
 }
+
+
+#segunda-parte-site #textos-segunda-parte-site #imgAsset3{
+
+    position: relative;
+    top: -2vh;  
+}
+
+#segunda-parte-site #textos-segunda-parte-site #pSite{
+
+    position: relative;
+    top: -6vh;
+    left: 24vh;
+}
+
+#segunda-parte-site #textos-segunda-parte-site #imgAsset4{
+
+    position: relative;
+    top: -3vh;  
+}
+
+#segunda-parte-site #textos-segunda-parte-site #pRedes{
+
+    position: relative;
+    top: -7vh;
+    left: 24vh;
+}
+
+
+#segunda-parte-site #textos-segunda-parte-site #imgAsset5{
+
+    position: relative;
+    top: -4vh;  
+}
+
+#segunda-parte-site #textos-segunda-parte-site #pChat{
+
+    position: relative;
+    top: -8vh;
+    left: 24vh;
+}
+
+#segunda-parte-site #textos-segunda-parte-site #imgAsset6{
+
+    position: relative;
+    top: -5vh;  
+}
+
+#segunda-parte-site #textos-segunda-parte-site #pBlog{
+
+    position: relative;
+    top: -9vh;
+    left: 24vh;
+}
+
+
+#segunda-parte-site #img-segunda-parte-site{
+
+
+}
+
+
+
+#segunda-parte-site #img-segunda-parte-site #imgCoding{
+
+    width: 45%;
+    position: relative;
+    top: -10vh;
+    left: 10vh;
+}
+
+
