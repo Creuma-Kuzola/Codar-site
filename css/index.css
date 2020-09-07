@@ -36,7 +36,7 @@ header{
 header #cd{
 
     color: #D6000D;
-    margin-left: 9vh;
+    margin-left: 11vh;
 }
 header h1 span{
 
@@ -65,7 +65,7 @@ header #menu #menuLinks{
     grid-template-columns: repeat(4,1fr);
     gap: 0 4vh;
     position: relative;
-    left: 48vh;
+    left: 54vh;
 
 }
 
@@ -90,16 +90,16 @@ header #menu #menuLinks #login{
 
 #videoCallImg{
 
-    width: 35%;
+    width: 38%;
     position: relative;
-    top: 20vh;
-    left: 18vh;
+    top: 16vh;
+    left: 22vh;
 }
 
 h2{
 
     position: relative;
-    left: 115vh;
+    left: 130vh;
     top: -40vh;
 }
 
@@ -107,7 +107,7 @@ h2{
 #pWebsite{
 
     position: relative;
-    left: 115vh;
+    left: 130vh;
     color: #D6000D;
     top: -38vh;
     font-size: 11vh;
@@ -118,7 +118,7 @@ h2{
 #pSolicitar{
 
     position: relative;
-    left: 115vh;
+    left: 130vh;
     top: -30vh;
     color: #ffffff;
     background-color: #D6000D;
@@ -140,29 +140,43 @@ h2{
 
 }
 
+
+.fa-check-circle{
+
+    color: #D6000D;
+    
+}
+
+
 .img-textos-segunda-parte-site{
 
     position: relative;
-    left: 24vh;
+    left: 30vh;
     width: 4%;
 }
 
-#segunda-parte-site #textos-segunda-parte-site{
 
+.textos-segunda-parte-site{
 
+    position: relative;
+    left: 35vh;
+    font-size: 2.7vh;
+    
 }
 
 
 #segunda-parte-site #textos-segunda-parte-site #imgAsset1{
 
-   
+    position: relative;
+    
 }
+
 
 #segunda-parte-site #textos-segunda-parte-site #pDominio{
 
     position: relative;
-    top: -3.5vh;
-    left: 24vh;
+    top: -3vh;
+    
 }
 
 
@@ -175,8 +189,8 @@ h2{
 #segunda-parte-site #textos-segunda-parte-site #pHospedagem{
 
     position: relative;
-    top: -5vh;
-    left: 24vh;
+    top: -4vh;
+    
 }
 
 
@@ -189,8 +203,8 @@ h2{
 #segunda-parte-site #textos-segunda-parte-site #pSite{
 
     position: relative;
-    top: -6vh;
-    left: 24vh;
+    top: -5vh;
+    
 }
 
 #segunda-parte-site #textos-segunda-parte-site #imgAsset4{
@@ -202,10 +216,8 @@ h2{
 #segunda-parte-site #textos-segunda-parte-site #pRedes{
 
     position: relative;
-    top: -7vh;
-    left: 24vh;
+    top: -6vh;    
 }
-
 
 #segunda-parte-site #textos-segunda-parte-site #imgAsset5{
 
@@ -216,8 +228,8 @@ h2{
 #segunda-parte-site #textos-segunda-parte-site #pChat{
 
     position: relative;
-    top: -8vh;
-    left: 24vh;
+    top: -7vh;
+    
 }
 
 #segunda-parte-site #textos-segunda-parte-site #imgAsset6{
@@ -229,8 +241,8 @@ h2{
 #segunda-parte-site #textos-segunda-parte-site #pBlog{
 
     position: relative;
-    top: -9vh;
-    left: 24vh;
+    top: -8vh;
+    
 }
 
 
@@ -246,7 +258,7 @@ h2{
     width: 45%;
     position: relative;
     top: -10vh;
-    left: 10vh;
+    left: 40vh;
 }
 
 
