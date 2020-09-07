@@ -36,7 +36,7 @@ header{
 header #cd{
 
     color: #D6000D;
-    margin-left: 11vh;
+    margin-left: 20vh;
 }
 header h1 span{
 
@@ -65,7 +65,7 @@ header #menu #menuLinks{
     grid-template-columns: repeat(4,1fr);
     gap: 0 4vh;
     position: relative;
-    left: 54vh;
+    left: 50vh;
 
 }
 
@@ -93,10 +93,10 @@ header #menu #menuLinks #login{
     width: 38%;
     position: relative;
     top: 16vh;
-    left: 22vh;
+    left: 27vh;
 }
 
-h2{
+#pAlavanque{
 
     position: relative;
     left: 130vh;
@@ -133,7 +133,7 @@ h2{
 #segunda-parte-site{
 
     position: relative;
-    top: 35vh;
+    top:50vh;
     display: grid;
     grid-template-columns: repeat(2,fr);
     grid-auto-flow: column;
@@ -151,7 +151,7 @@ h2{
 .img-textos-segunda-parte-site{
 
     position: relative;
-    left: 30vh;
+    left: 40vh;
     width: 4%;
 }
 
@@ -159,7 +159,7 @@ h2{
 .textos-segunda-parte-site{
 
     position: relative;
-    left: 35vh;
+    left: 45vh;
     font-size: 2.7vh;
     
 }
@@ -252,13 +252,20 @@ h2{
 }
 
 
-
 #segunda-parte-site #img-segunda-parte-site #imgCoding{
 
-    width: 45%;
+    width: 40%;
     position: relative;
-    top: -10vh;
-    left: 40vh;
+    top: -24vh;
+    left: 85vh;
+}
+
+#pH4{
+
+    position: relative;
+    top: 25vh;
+    left: 11vh;
+
 }
 
 
