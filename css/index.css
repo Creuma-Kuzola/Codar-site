@@ -36,7 +36,7 @@ header{
 header #cd{
 
     color: #D6000D;
-    margin-left: 20vh;
+    margin-left: 30vh;
 }
 header h1 span{
 
@@ -93,13 +93,13 @@ header #menu #menuLinks #login{
     width: 38%;
     position: relative;
     top: 16vh;
-    left: 27vh;
+    left: 36vh;
 }
 
 #pAlavanque{
 
     position: relative;
-    left: 130vh;
+    left: 140vh;
     top: -40vh;
 }
 
@@ -107,7 +107,7 @@ header #menu #menuLinks #login{
 #pWebsite{
 
     position: relative;
-    left: 130vh;
+    left: 140vh;
     color: #D6000D;
     top: -38vh;
     font-size: 11vh;
@@ -118,7 +118,7 @@ header #menu #menuLinks #login{
 #pSolicitar{
 
     position: relative;
-    left: 130vh;
+    left: 140vh;
     top: -30vh;
     color: #ffffff;
     background-color: #D6000D;
@@ -263,8 +263,22 @@ header #menu #menuLinks #login{
 #pH4{
 
     position: relative;
-    top: 25vh;
-    left: 11vh;
+    top: 28vh;
+    left: 40vh;
+
+}
+
+input[type="text"]{
+
+    position: relative;
+    top: 29vh;
+    left: 40vh;
+    background-color: #dddddd;
+    width: 12%;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    
 
 }
 
