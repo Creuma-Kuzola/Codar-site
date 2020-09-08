@@ -310,7 +310,7 @@ input[type="text"]{
     position: relative;
     top: 60vh;
     background-color: #dddddd;
-    width: 45%;
+    width: 52%;
     height: 22vh;
     left: 30vh;
     border-radius: 10px;
@@ -319,14 +319,13 @@ input[type="text"]{
 
 .circle{
 
-    border-radius: 50%;
-    width: 17%;
-    height: 50%;
+    border-radius:50%;
+    width: 11vh;
+    height: 11vh;
     background-color: #D6000D;
     position: relative;
     left: 4vh;
-    margin-top: 20px;
-    
+    margin-top:3vh;   
 }
 
 #pExperiencia{
@@ -352,4 +351,50 @@ input[type="text"]{
     font-size: 1.9vh;
     font-weight: bold;
 
+}
+
+footer{
+
+    position: relative;
+    top: 70vh;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 22vh;
+    padding-top: 7vh;
+    padding-left: 7vh;
+    font-weight: bold;
+   /* padding-right: 5vh;*/
+}
+
+.footer-linhas{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-flow: column;
+}
+
+
+#div-segunda-linha p{
+
+   b
+}
+
+footer #pCd{
+
+    font-size: 2vw;
+    position: relative;
+    top: -1vh;
+}
+
+.fa-facebook-square{
+
+    margin-left: 2vh;
+}
+
+.fa-facebook-square, .fa-instagram,.fa-twitter-square{
+
+    color: #D6000D;
+    padding-right: 2vh;
+    font-size: 4vh;
 }
