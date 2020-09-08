@@ -360,10 +360,9 @@ footer{
     background-color: #000000;
     color: #ffffff;
     width: 100%;
-    height: 22vh;
+    height: 32vh;
     padding-top: 7vh;
     padding-left: 7vh;
-    font-weight: bold;
    /* padding-right: 5vh;*/
 }
 
@@ -374,11 +373,19 @@ footer{
     grid-auto-flow: column;
 }
 
+footer  #div-primeira-linha p{
+    font-weight: bold;
+    
+ }
 
-#div-segunda-linha p{
 
-   b
+footer  #div-segunda-linha p{
+
+    padding-top: 1vh;
+    font-size: 2.4vh;
+   
 }
+
 
 footer #pCd{
 
@@ -398,3 +405,10 @@ footer #pCd{
     padding-right: 2vh;
     font-size: 4vh;
 }
+
+
+footer  #div-segunda-linha #div-segunda-linha-paragraph p {
+
+    padding-bottom: 2vh;
+}
+
