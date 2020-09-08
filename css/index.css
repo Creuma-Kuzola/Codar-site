@@ -296,3 +296,60 @@ input[type="text"]{
     border-radius: 7px;
     font-weight: bold;
 }
+
+#rectangulos-site{
+
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    grid-auto-flow: column;
+
+}
+
+.rectangulo-site{
+
+    position: relative;
+    top: 60vh;
+    background-color: #dddddd;
+    width: 45%;
+    height: 22vh;
+    left: 30vh;
+    border-radius: 10px;
+   
+}
+
+.circle{
+
+    border-radius: 50%;
+    width: 17%;
+    height: 50%;
+    background-color: #D6000D;
+    position: relative;
+    left: 4vh;
+    margin-top: 20px;
+    
+}
+
+#pExperiencia{
+
+    position: relative;
+    top: -10vh;
+    left: 17vh;
+    font-size: 2vh;
+}
+
+#pPedro{
+
+    position: relative;
+    top: -8vh;
+    left: 17vh;
+}
+
+#pConst{
+
+    position: relative;
+    top: -8vh;
+    left: 17vh;
+    font-size: 1.9vh;
+    font-weight: bold;
+
+}
