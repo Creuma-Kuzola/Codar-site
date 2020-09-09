@@ -17,11 +17,6 @@
 body{
 
     overflow-x: hidden;
-}
-
-
-body {
-
     
 }
 
@@ -31,6 +26,7 @@ header{
     margin-top: 2vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    /*grid-template-columns:repeat(2,1fr) ;*/
 }
 
 header #cd{
@@ -412,3 +408,69 @@ footer  #div-segunda-linha #div-segunda-linha-paragraph p {
     padding-bottom: 2vh;
 }
 
+@media only screen and (max-width:900px)
+{
+
+
+body{
+
+    
+}
+ header{
+
+     margin-top: 8vh;
+     display: grid;
+     grid-template-columns: 0;
+    
+}
+
+header #cd{
+
+    margin-left:0;
+    margin-left: 60vh;
+}
+
+header #menu {
+
+    margin-top: 2vh;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    position: relative;
+}
+
+header #menu #menuLinks{
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0 4vh;
+}
+
+
+header #menu #menuLinks #login{
+
+    display: none;
+   
+}
+
+#div-section{
+
+    display: grid;
+    
+}
+
+#videoCallImg{
+
+    width: 30%;
+    position: relative;
+    display: grid;
+    top: 7vh;
+    left: 20vh;
+    
+}
+
+
+
+}
